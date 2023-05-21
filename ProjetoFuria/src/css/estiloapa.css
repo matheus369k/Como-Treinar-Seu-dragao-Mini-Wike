@@ -1,0 +1,56 @@
+body{background-color: rgb(2, 0, 7);
+    max-width: 1280px; 
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    
+    border-bottom: 10px solid rgb(2, 1, 20);
+    background: center;
+    width: auto;
+    height: 370px;
+    background-repeat: no-repeat;
+    background-image: url("https://i.pinimg.com/originals/42/35/72/4235729e5fa06bbf029b3bc2959b8ab8.png");
+ }
+
+
+button .botao-menu{
+    height: 25px;
+    width: 30px;
+}
+main{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("https://c.wallhere.com/photos/38/82/1920x1080_px_dragon_How_To_Train_Your_Dragon_2_Toothless-1261131.jpg!d");
+}
+
+header .botao-menu:hover,
+main .imagem-dragao:hover,
+main .descricao:hover,
+main .classe:hover,
+main .nome:hover,
+main .redes:hover{
+    color: blueviolet;
+    transition: 0.5s;
+    transform:scale(1.1)
+}
+
+
+main .nome, .imagem-dragao, .descricao, .classe, .redes{
+    color: aliceblue;
+    margin-bottom: 8%;
+    margin-left: 6% ;
+    margin-right: 6% ;
+}
+
+main .imagem-dragao{
+    border-radius: 5px;
+    border: 3px solid;
+    width: 370px;
+    height: 210px;
+} 
+
+main .nome,
+main .classe,
+main .descricao{
+    text-align: justify;
+}
