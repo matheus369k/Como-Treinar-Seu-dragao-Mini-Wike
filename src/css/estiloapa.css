@@ -1,6 +1,6 @@
 body{
-    background-color: black;
     max-width: 1280px;
+    background-color: black;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -37,7 +37,7 @@ main .redes:hover{
 
 main .nome, .imagem-dragao, .descricao, .classe, .redes{
     color: aliceblue;
-    margin-bottom: 4%;
+    margin-bottom: 8%;
     margin-left: 6% ;
     margin-right: 6% ;
 }
