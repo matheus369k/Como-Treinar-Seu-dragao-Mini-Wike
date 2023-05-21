@@ -5,7 +5,9 @@ body{
 }
 
 header{
+    border-bottom: 10px solid rgb(4, 0, 61);
     background: center;
+    width: auto;
     height: 370px;
     background-repeat: no-repeat;
     background-image: url("https://i.pinimg.com/originals/42/35/72/4235729e5fa06bbf029b3bc2959b8ab8.png");
@@ -35,7 +37,6 @@ main .redes:hover{
 
 main .nome, .imagem-dragao, .descricao, .classe, .redes{
     color: aliceblue;
-    text-transform: uppercase;
     margin-bottom: 8%;
     margin-left: 10% ;
     margin-right: 10% ;
@@ -44,17 +45,15 @@ main .nome, .imagem-dragao, .descricao, .classe, .redes{
 main .imagem-dragao{
     border-radius: 5px;
     border: 3px solid;
-    width: 420px;
-    height: 240px;
+    width: 370px;
+    height: 210px;
 } 
 
 main .nome,
 main .classe{
     text-align: justify;
-    font-size: medium;
 }
 
 main .descricao{
-    text-align: justify;
-    font-size: small;
+    text-align: justify;;
 }
