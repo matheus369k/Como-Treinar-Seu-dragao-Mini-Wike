@@ -1,23 +1,22 @@
-body{
-    max-width: 1280px;
-    background-color: black;
+body{background-color: rgb(2, 0, 7);
+    max-width: 1280px; 
     font-family: 'Poppins', sans-serif;
 }
-
 header{
-    border-bottom: 10px solid rgb(4, 0, 61);
+    
+    border-bottom: 10px solid rgb(2, 1, 20);
     background: center;
     width: auto;
     height: 370px;
     background-repeat: no-repeat;
     background-image: url("https://i.pinimg.com/originals/42/35/72/4235729e5fa06bbf029b3bc2959b8ab8.png");
-}
+ }
+
 
 button .botao-menu{
     height: 25px;
     width: 30px;
 }
-
 main{
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -34,6 +33,7 @@ main .redes:hover{
     transition: 0.5s;
     transform:scale(1.1)
 }
+
 
 main .nome, .imagem-dragao, .descricao, .classe, .redes{
     color: aliceblue;
