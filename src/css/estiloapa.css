@@ -37,9 +37,9 @@ main .redes:hover{
 
 main .nome, .imagem-dragao, .descricao, .classe, .redes{
     color: aliceblue;
-    margin-bottom: 8%;
-    margin-left: 10% ;
-    margin-right: 10% ;
+    margin-bottom: 4%;
+    margin-left: 6% ;
+    margin-right: 6% ;
 }
 
 main .imagem-dragao{
@@ -50,10 +50,7 @@ main .imagem-dragao{
 } 
 
 main .nome,
-main .classe{
-    text-align: justify;
-}
-
+main .classe,
 main .descricao{
-    text-align: justify;;
+    text-align: justify;
 }
