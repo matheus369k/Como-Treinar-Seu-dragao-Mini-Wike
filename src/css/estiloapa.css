@@ -1,58 +1,57 @@
 body{
-    background-color: rgb(2, 0, 7);
-    max-width: 1280px; 
-    font-family: 'Poppins', sans-serif;
+    background-attachment: fixed;
+    max-width: 1280px;
+    background-image:linear-gradient(to top, rgb(160, 160, 160),rgb(109, 109, 109));
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header .cabecario{
+    height: 100%;
 }
 
 header{
-    border-bottom: 10px solid rgb(2, 1, 20);
-    background: center;
-    width: auto;
-    height: 370px;
-    background-repeat: no-repeat;
-    background-image: url("https://i.pinimg.com/originals/42/35/72/4235729e5fa06bbf029b3bc2959b8ab8.png");
- }
-
-
-button .botao-menu{
-    height: 25px;
-    width: 30px;
+    box-shadow: 4px 6px 4px 6px rgba(0, 0, 0, 0.568);
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+    height: 200px;
+    background-image:linear-gradient(to top,black, rgb(36, 36, 36), rgb(65, 65, 65));
 }
 
-main{
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-image: url("https://c.wallhere.com/photos/38/82/1920x1080_px_dragon_How_To_Train_Your_Dragon_2_Toothless-1261131.jpg!d");
-}
-
-header .botao-menu:hover,
 main .imagem-dragao:hover,
-main .descricao:hover,
-main .classe:hover,
-main .nome:hover,
-main .redes:hover{
-    color: blueviolet;
+h3:hover,
+h2:hover,
+h1:hover,
+body .redes:hover{
+    color: #353535;
     transition: 0.5s;
-    transform:scale(1.1)
+    transform:scale(1.01)
 }
-
-
-main .nome, .imagem-dragao, .descricao, .classe, .redes{
-    color: aliceblue;
-    margin-bottom: 8%;
-    margin-left: 6% ;
-    margin-right: 6% ;
+main{
+    padding: 35px;
 }
 
 main .imagem-dragao{
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.623);
+    border: 4px solid black;
     border-radius: 5px;
-    border: 3px solid;
     width: 370px;
     height: 210px;
 } 
 
-main .nome,
-main .classe,
-main .descricao{
+h1, 
+h2{
+    text-align: center;
+    padding: 15px;
+    text-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.63);
+}
+
+h3{
+    margin-bottom:40px ;
+    font-size: small;
+    padding: 35px;
+    box-shadow:4px 2px 2px 3px rgba(11, 15, 15, 0.644);
+    background-image: linear-gradient(to right, #6B96FF, #61ACE8,#7bd1e4);
+    border-radius: 15px;
     text-align: justify;
+    border: 4px solid black;
 }
