@@ -10,6 +10,7 @@ header .cabecario{
 }
 
 header{
+    text-align: center;
     box-shadow: 4px 6px 4px 6px rgba(0, 0, 0, 0.568);
     border-bottom-right-radius:20px;
     border-bottom-left-radius:20px;
@@ -22,11 +23,11 @@ h3:hover,
 h2:hover,
 h1:hover,
 body .redes:hover{
-    color: #353535;
     transition: 0.5s;
     transform:scale(1.01)
 }
 main{
+    text-align: center;
     padding: 15px;
 }
 
