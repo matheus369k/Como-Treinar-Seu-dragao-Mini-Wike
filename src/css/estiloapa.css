@@ -2,7 +2,7 @@
 
 body{
     background-attachment: fixed;
-    max-width: 1280px;
+    max-width: 1024px;
     background-image:linear-gradient(to top, rgb(160, 160, 160),rgb(109, 109, 109));
     font-family: 'Pangolin', cursive;
 }
@@ -29,9 +29,8 @@ ul:hover{
     transform:scale(1.001)
 }
 main{
-    width: 510px;
     text-align: center;
-    padding: 4px;
+    padding: 2px;
 }
 
 main .imagem-dragao{
@@ -45,7 +44,8 @@ main .imagem-dragao{
 h1, 
 h2{
     text-align: center;
-    padding: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     text-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.63);
 }
 
