@@ -58,15 +58,15 @@ p{
 
 h3{
     box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.349);
-    width: 98%;
+    width: 94%;
     height: 30%;
     text-align: center;
-    border: 5px solid rgb(8, 8, 8);
+    border: 5px solid rgb(0, 0, 0);
     background-color: rgb(0, 0, 0);
 }
 
 div{
-    width: 49%;
+    width: 47%;
     height: 30%;
     background-color: black;
     text-align: center;
