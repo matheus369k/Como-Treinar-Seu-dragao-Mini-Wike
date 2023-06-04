@@ -30,7 +30,6 @@ ul:hover{
 }
 main{
     text-align: center;
-    padding: 2px;
 }
 
 main .imagem-dragao{
@@ -58,7 +57,7 @@ p{
 
 h3{
     box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.349);
-    width: 400px;
+    width: 370px;
     height: 30%;
     text-align: center;
     border: 5px solid rgb(0, 0, 0);
@@ -66,9 +65,13 @@ h3{
 }
 
 div{
-    width:190px;
+    width:175px;
     height: 30%;
     background-color: black;
     text-align: center;
     display: inline-block;
+}
+
+.redes{
+    padding-top: 15px;
 }
