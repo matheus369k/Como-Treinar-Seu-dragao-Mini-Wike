@@ -16,15 +16,13 @@
     format(truetype);
 }
 
-*{
-    padding: 0;
-    margin: auto;
+body{
+    min-width: 415px;
     font-family: 'vink', 'vink2', 'vink3', 'Courier New', Courier, monospace;
 }
 
 header{
-    min-width: 650px;
-    box-shadow: 5px 5px 4px 3px rgba(0, 0, 0, 0.404);
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.404);
     background-color:black;  
 }
 
@@ -66,13 +64,15 @@ main > ul > li > h2{
     font-size: 48px;
 }
 
-main > ul > li> img{
-    display: inline-block;
-    width: 565px;
+main > ul > li > img{
     height: 315px;
+    width: 566px;
+    background-size: 100%;
+    display: inline-block;
+    min-width: 400px;
     border-radius: 15px;
     border: 3px solid;
-    margin: 0px 0px 50px 0px;
+    margin-bottom:50px;
     box-shadow: 5px 5px 4px 3px rgba(0, 0, 0, 0.404);
 }
 
