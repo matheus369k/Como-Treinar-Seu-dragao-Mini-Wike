@@ -82,9 +82,10 @@ main > div.extra{
 
 main > div > picture > img,
 main > picture > img{
+    border-radius: 15px;
     box-shadow: 4px 4px 5px 4px  rgba(0, 0, 0, 0.432);
     margin: 50px 10px;
-    border: 10px solid;
+    border: 3px solid;
 }
 
 main > div > picture > img:hover,
