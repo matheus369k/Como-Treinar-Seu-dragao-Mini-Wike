@@ -1,6 +1,7 @@
 *{
     margin: auto;
-    padding: 0;
+    padding: 0px;
+    box-sizing:0px;
 }
 
 @font-face {
@@ -59,4 +60,18 @@ main > h1{
     font-size: 4em;
     padding: 50px;
     text-align: center;
+}
+
+main{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+}
+
+main > p{
+    padding: 50px;
+    line-height: 65px;
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 3em;
 }
