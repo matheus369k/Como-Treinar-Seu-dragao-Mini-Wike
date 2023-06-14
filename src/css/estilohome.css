@@ -1,0 +1,62 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+
+@font-face {
+    font-family: font1;
+    src: url('../fontes/NorseBold-2Kge.otf')format(opentype);
+}
+
+@font-face {
+    font-family: font2;
+    src: url('../fontes/PR\ Viking.ttf')format(opentype);
+}
+
+@font-face {
+    font-family: font3;
+    src: url('../fontes/VIKING-N.TTF') format(opentype);
+}
+
+body{
+    font-family:'font1', 'font2', 'font3';
+}
+
+header{
+    background-color: black;
+}
+
+header > h1{
+    font-weight: 900;
+    color: white;
+    padding: 50px;
+    font-size: 5em;
+    text-align: center;
+}
+
+header > ul{
+    list-style: none;
+}
+
+header > ul > div{
+    display: inline-block;
+    padding: 15px;
+}
+
+header > ul > div > a{
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+
+header > ul > div > a:hover{
+    background-color: rgba(255, 255, 255, 0.432);
+}
+
+main > h1{
+    font-size: 4em;
+    padding: 50px;
+    text-align: center;
+}
