@@ -20,6 +20,13 @@
 }
 
 body{
+    font-weight:600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+header{
    font-family:'font1', 'font2', 'font3';
 }
 
@@ -27,76 +34,68 @@ header{
     background-color: black;
 }
 
-header > h1{
+h1.titulo{
     font-weight: 900;
     color: white;
     padding: 50px;
-    font-size: 5em;
+    font-size: 10vw;
     text-align: center;
 }
 
-header > ul{
-    list-style: none;
-}
-
-header > ul > div{
+nav{
     display: inline-block;
     padding: 15px;
 }
 
-header > ul > div > a{
+nav > a{
     border-radius: 15px;
     padding: 10px;
     text-decoration: none;
     color: white;
-    font-size: 2em;
+    font-size: 4vw;
 }
 
-header > ul > div > a:hover{
+nav > a:hover{
     background-color: rgba(255, 255, 255, 0.432);
 }
 
-main > h1{
-    font-size: 3em;
+h1{
+    font-size: 6vw;
     padding: 50px;
     text-align: center;
 }
 
 main{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     max-width: 1200px;
 }
 
-main > p{
-    padding: 20px;
-    line-height: 45px;
+p{
+    padding: 3%;
+    line-height: 5vw;
     text-align: justify;
     text-indent: 50px;
-    font-size: 1.5em;
+    font-size: 3vw;
 }
 
-main > div.extra{
+div.extra{
     display: inline-block;
 }
 
-main > div > picture > img,
-main > picture > img{
+img{
     border-radius: 15px;
     box-shadow: 4px 4px 5px 4px  rgba(0, 0, 0, 0.432);
     margin: 50px 10px;
     border: 3px solid;
 }
 
-main > div > picture > img:hover,
-main > picture > img:hover{
+img:hover{
     transform: scale(1.02);
 }
 
 h2{
     padding: 20px 0px;
-    font-family:'font1', 'font2', 'font3';
-    font-size: 3em;
+    font-size: 6vw;
 }
 
 .conteiner{
@@ -115,7 +114,7 @@ h2{
 
 footer{
     text-align: justify;
-    font-size: 1.4em;
+    font-size: 3vw;
     padding: 30px 0px;
     text-align: center;
     color: white;
