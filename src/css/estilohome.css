@@ -111,6 +111,11 @@ h2{
     height: 90%;
 }
 
+aside > a{
+    color: black;
+    text-decoration: none;
+}
+
 footer{
     text-align: justify;
     font-size: 3vw;
