@@ -88,6 +88,11 @@ img{
     border: 3px solid;
 }
 
+strong > a:hover{
+    color: rgb(55, 16, 96);
+    text-decoration: underline;
+}
+
 img:hover{
     transform: scale(1.02);
 }
@@ -111,8 +116,8 @@ h2{
     height: 90%;
 }
 
-aside > a{
-    color: black;
+a{
+    color: rgb(33, 91, 100);
     text-decoration: none;
 }
 
