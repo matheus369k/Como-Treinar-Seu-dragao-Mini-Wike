@@ -25,7 +25,7 @@ Para   adicionar diferentes tamanhos de tela no site, foi usado o comando ```<so
 <div align="center">
 
 ![2023-08-18-151413_1024x600_scrot](https://github.com/matheus369k/Como-Treinar-Seu-dragao-Mini-Wike/assets/47065962/9f0bd84d-9f03-4c38-b65b-bc685d4ac585)</div>
-para adicionar o video do Youtube foi ultilizada a tag ```<ifrrame src=""></iframe>```...
+para adicionar o video do Youtube foi utilizada a tag ```<ifrrame src=""></iframe>```...
 <div align="center">
   
 ![2023-08-18-151824_1024x600_scrot](https://github.com/matheus369k/Como-Treinar-Seu-dragao-Mini-Wike/assets/47065962/383bd6c2-fd1e-44ee-af45-a6740f08be20)</div>
@@ -35,7 +35,7 @@ Veja o comando com mais detalhes abaixo👇
 ![2023-08-18-152518_1024x600_scrot](https://github.com/matheus369k/Como-Treinar-Seu-dragao-Mini-Wike/assets/47065962/b27c6b84-b8fe-40e0-8b64-0f9852c5a4ba)</div>
 
 #### __*CSS*__
-Foi usado um unico arquivo .css para estilizar as __3 📄paginas__. Nāo foi utilizada __MediaQuery_+ para adaptaçāo para outros aparelhos mas sim umma medida adaptavel, sendo ela a __vw__
+Foi usado um unico arquivo .css para estilizar as __3 📄paginas__. Nāo foi utilizada __MediaQuery__ para adaptar para outros aparelhos mas sim uma medida adaptavel, sendo ela a __vw__.
 
 Na parte de deixar o video "responsivo" foi utilizado ```position: absolute;``` para abilitar o uso de ```top: ;``` e ```left: ;```.veja codigo mais detalhado abaixo⬇️
 <div align="center">
