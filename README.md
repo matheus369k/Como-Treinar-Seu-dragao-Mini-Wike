@@ -43,4 +43,4 @@ Na parte de deixar o video "responsivo" foi utilizado ```position: absolute;``` 
 ![2023-08-18-153801_1024x600_scrot](https://github.com/matheus369k/Como-Treinar-Seu-dragao-Mini-Wike/assets/47065962/d0a03246-d99e-4016-9754-866a2f513d24)</div>
 
 ### 📃Licença
-Licença aderida (MIT) - veja [Licença](LICENSE)
+Não foi aderida uma Licença.
