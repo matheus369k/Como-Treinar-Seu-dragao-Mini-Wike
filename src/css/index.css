@@ -157,3 +157,7 @@ footer {
     margin-top: -40px;
     font-weight: bold;
 }
+
+footer a{
+    color: #ffffff;
+}
