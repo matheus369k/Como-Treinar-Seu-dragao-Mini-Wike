@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: none;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Unna:wght@400;700&display=swap');
+
+:root {
+    --color-light: #2e006a;
+    --color-dark: #180036;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(153,153,153,1) 0%, rgba(215,215,215,1) 46%, rgba(255,255,255,1) 100%);
+    background-attachment: fixed;
+    height: 100vw;
+    font-family: 'Unna', serif;
+}
+
+header {
+    height: 120px;
+    font-weight: bold;
+    padding: 20px 50px;
+    background: linear-gradient(90deg, rgba(15,0,57,1) 0%, rgba(3,0,19,1) 19%, rgba(0,0,0,1) 50%, rgba(3,0,19,1) 83%, rgba(12,0,55,1) 100%);
+    color: white;
+}
+
+.banner {
+    height: 140px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border: none;
+    box-shadow: 0 0 30px 0px brgba(0, 0, 0, 0.603);
+    opacity: 90%;
+}
+
+nav {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+nav img{
+    width: 30px;
+    border: none;
+    z-index: 1;
+}
+
+nav img:hover {
+    transition: .5s;
+    transform: scale(1.2);
+}
+
+main {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    max-width: 1024px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+li,
+p {
+    max-width: 1024px;
+    font-size: 1.2em;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+span {
+    font-weight: bold;
+} 
+
+.capa {
+    margin: 0 6px 6px 0;
+    border-radius: 5px;
+    height: 195px;
+    float: left;
+    box-shadow: 2px 2px 4px #1800366a;
+}
+
+.big_img {
+    width: 100%;
+    border-radius: 10px 0 10px 0;
+    box-shadow: 5px 5px 7px #1800366a;
+}
+
+img {
+    border:1px solid var(--color-light);
+}
+
+a {
+    color: var(--color-dark);
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--color-light);
+}
+
+.container_video {
+    position: relative;
+    padding-bottom: 56%;
+}
+
+.video {
+    position: absolute;
+    height: 70%;
+    width: 65%;
+    left: 50%;
+    transform: translate(-50%,-10%);
+}
+
+aside {
+    z-index: 1;
+    margin-top: -15%;
+}
+
+.extra img {
+    height: 300px;
+    margin-top: -50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 7px #1800366a;
+    border:1px solid var(--color-light);
+}
+
+footer {
+    background-color: var(--color-dark);
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: -40px;
+    font-weight: bold;
+}
